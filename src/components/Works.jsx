@@ -1,4 +1,3 @@
-
 import React from 'react';
 import Tilt from 'react-parallax-tilt';
 import { motion } from 'framer-motion';
@@ -43,11 +42,23 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
           )}
         </div>
 
+        {/* ✅ Project title logic with Figma redirect for SkiMate only */}
         <div className="mt-5">
           <h3 className="text-white font-bold text-[24px] hover:underline">
-            <Link to={`/project/${encodeURIComponent(name)}`}>
-              {name}
-            </Link>
+            {name === "SkiMate" ? (
+              <a
+                href="https://www.figma.com/proto/izEkOhFBPoXDW7qk15nnZ3/SkiMate-Case-Study-Design?node-id=3315-3657&t=FeeBVVJvlfZfUBfV-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=3315%3A3657"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-white hover:underline"
+              >
+                {name}
+              </a>
+            ) : (
+              <Link to={`/project/${encodeURIComponent(name)}`}>
+                {name}
+              </Link>
+            )}
           </h3>
           <p className="mt-2 text-secondary text-[14px]">{description}</p>
         </div>
