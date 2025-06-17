@@ -128,9 +128,10 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "January 2024 - Present",
     points: [
-      "Generated $21,000 in revenue in a single month by identifying client needs and delivering tailored business solutions across Konica Minolta's product portfolio.",
-      "Strategically prospected and developed strategic relationships with both net new and existing named accounts.",
-      "Tailored Konica Minolta's business solutions to address specific pain points while maintaining high retention rates through consistent value delivery.",
+      "Develop and execute strategic sales initiatives, identifying opportunities to upsell and cross-sell advanced document management, cloud services, and security solutions driving digital transformations across legal and commercial industries.",
+      "Coordinate with cross-functional teams, including product specialists and customer support, to ensure seamless solutions implemention, enhance client satifaction, and drive high rentention and expandsion.",
+      "Continue to oversee and expand a portfolio of high-value Enterprise accounts, focusing on delivering personalized service and fostering long-term relationships with C-level executives and key decision makers in accounts, such as, Foothills Credit Union and Jacobs Entertainment.",
+      "LEad high-level consultative sales engagements, conducting discovery meetings, solution-based presentations, and ROI-driven proposals to drive multi-million dollar reenue growth.",
     ],
   },
   {
